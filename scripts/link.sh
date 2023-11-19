@@ -25,7 +25,7 @@ for dotfile in $(find $DOTFILES_PATH); do
 
   if [ -f $dotfile ]; then
     # move the dotfile to the backup directory if it is not symlink
-    if [ ! -h $HOME_TARGET ]; then
+    if [ -e $HOME_TARGET ] && [ ! -h $HOME_TARGET ]; then
       mv $HOME_TARGET $BACKUP_TARGET
     fi
 
