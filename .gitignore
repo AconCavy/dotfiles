@@ -6,6 +6,7 @@
 !/LICENSE
 !/.gitattributes
 !/.gitignore
+!/.editorconfig
 
 # management targets
 # !/.dotfile
