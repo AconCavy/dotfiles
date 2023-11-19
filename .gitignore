@@ -1,6 +1,5 @@
 # ignore all
 /*
-/.**
 
 # repository files
 !/README.md
@@ -9,3 +8,4 @@
 
 # management targets
 # !/.dotfile
+!/scripts/
