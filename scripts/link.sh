@@ -15,12 +15,22 @@ for dotfile in $(find $DOTFILES_PATH); do
 
   TARGET="${dotfile##"$DOTFILES_PATH/"}"
   HOME_TARGET="$HOME/$TARGET"
+  BACKUP_TARGET="$DOTBACKUP_PATH/$TARGET"
 
-  # move the dotfile to the backup directory if it is not symlink
-  if [ ! -h $HOME_TARGET ]; then
-    mv $HOME_TARGET "$DOTBACKUP_PATH/$TARGET"
+  if [ -d $dotfile ]; then
+    # create the directory to home
+    test -d $HOME_TARGET || mkdir $HOME_TARGET
+    test -d $BACKUP_TARGET || mkdir $BACKUP_TARGET
   fi
 
-  # create the symlink to the home directory
-  ln -snf $dotfile $HOME_TARGET
+  if [ -f $dotfile ]; then
+    # move the dotfile to the backup directory if it is not symlink
+    if [ ! -h $HOME_TARGET ]; then
+      mv $HOME_TARGET $BACKUP_TARGET
+    fi
+
+    # create the symlink to the home directory
+    ln -snf $dotfile $HOME_TARGET
+  fi
+
 done
