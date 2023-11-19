@@ -15,6 +15,10 @@ esac
 test -d $DOTBACKUP_PATH || mkdir $DOTBACKUP_PATH
 
 for dotfiles_path in $DOTFILES_SHARED_PATH $DOTFILES_OS_PATH; do
+  if [ -z $dotfiles_path ]; then
+    continue
+  fi
+
   for dotfile in $(find $dotfiles_path); do
     if [ $dotfile == $dotfiles_path ]; then
       continue
