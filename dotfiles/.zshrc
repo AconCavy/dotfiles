@@ -1,7 +1,7 @@
 export LANG=ja_JP.UTF-8
 
 export PATH="$PATH:$HOME/bin"
-# export PATH="$PATH:$HOME/Library/Android/sdk"
+export PATH="$PATH:$HOME/Library/Android/sdk"
 
 alias ls='ls --color=auto'
 if type exa &>/dev/null; then
