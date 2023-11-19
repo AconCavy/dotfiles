@@ -2,6 +2,8 @@
 
 SCRIPT_PATH=$(cd $(dirname $0); pwd)
 
+/bin/bash "$SCRIPT_PATH/defaults_mac.sh"
+
 # install Xcode
 xcode-select --install
 
