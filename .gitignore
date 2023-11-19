@@ -4,6 +4,7 @@
 # repository files
 !/README.md
 !/LICENSE
+!/.gitattributes
 !/.gitignore
 
 # management targets
