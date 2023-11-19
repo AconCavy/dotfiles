@@ -2,14 +2,10 @@
 /dotfiles/*
 
 # track dotfiles
-!/dotfiles/.config/
-!/dotfiles/.config/alacritty/
 !/dotfiles/.config/alacritty/alacritty.yml
 !/dotfiles/.config/starship.toml
-!/dotfiles/.config/powershell/
 !/dotfiles/.config/powershell/Microsoft.Powershell_profile.ps1
 !/dotfiles/.config/powershell/profile.ps1
-!/dotfiles/.config/zellij/
 !/dotfiles/.config/zellij/config.kdl
 !/dotfiles/.zshrc
 !/dotfiles/.Brewfile
