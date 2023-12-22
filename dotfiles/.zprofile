@@ -1,3 +1,7 @@
+# User scripts
+export PATH="$PATH:$HOME/bin"
+
+# Andoird SDK
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
