@@ -88,9 +88,9 @@ font:
     family: 'UDEV Gothic 35NF'
     style: Bold Italic
 
-# shell:
-#   program: /bin/zsh
-#   args:
-#     - -l
-#     - -c
-#     - "zellij attach --index 0 --create"
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "zellij attach --index 0 --create"
