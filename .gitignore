@@ -9,6 +9,7 @@
 !/dotfiles/.config/zellij/config.kdl
 !/dotfiles/.zprofile
 !/dotfiles/.zshrc
+!/dotfiles/.zshenv
 !/dotfiles/.Brewfile
 !/dotfiles/.vimrc
 !/dotfiles/.gitignore_global_mac
