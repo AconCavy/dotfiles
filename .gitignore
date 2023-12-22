@@ -1,16 +1,19 @@
 # ignore all dotfiles
 /dotfiles/*
+/dotfiles_mac/*
 
-# track dotfiles
+# for common
 !/dotfiles/.config/alacritty/alacritty.yml
-!/dotfiles/.config/starship.toml
 !/dotfiles/.config/powershell/Microsoft.Powershell_profile.ps1
 !/dotfiles/.config/powershell/profile.ps1
 !/dotfiles/.config/zellij/config.kdl
+!/dotfiles/.config/starship.toml
 !/dotfiles/.profile
+!/dotfiles/.vimrc
 !/dotfiles/.zprofile
 !/dotfiles/.zshrc
 !/dotfiles/.zshenv
-!/dotfiles/.Brewfile
-!/dotfiles/.vimrc
-!/dotfiles/.gitignore_global_mac
+
+# for mac
+!/dotfiles_mac/.Brewfile
+!/dotfiles_mac/.gitignore_global
