@@ -13,6 +13,7 @@ brew "webp"
 brew "zellij"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # app
 cask "alacritty"
