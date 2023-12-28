@@ -3,9 +3,14 @@
 /dotfiles_mac/*
 
 # for common
-!/dotfiles/.config/alacritty/alacritty.yml
+!/dotfiles/.config/
+/dotfiles/.config/*
+!/dotfiles/.config/alacritty/
+!/dotfiles/.config/alacritty/alacritty.toml
+!/dotfiles/.config/powershell/
 !/dotfiles/.config/powershell/Microsoft.Powershell_profile.ps1
 !/dotfiles/.config/powershell/profile.ps1
+!/dotfiles/.config/zellij/
 !/dotfiles/.config/zellij/config.kdl
 !/dotfiles/.config/starship.toml
 !/dotfiles/.profile
