@@ -1,8 +1,5 @@
-# ignore all dotfiles
+# shared
 /dotfiles_shared/*
-/dotfiles_mac/*
-
-# for common
 !/dotfiles_shared/.config/
 /dotfiles_shared/.config/*
 !/dotfiles_shared/.config/alacritty/
@@ -20,5 +17,6 @@
 !/dotfiles_shared/.zshenv
 
 # for mac
+/dotfiles_mac/*
 !/dotfiles_mac/.Brewfile
 !/dotfiles_mac/.gitignore_global
