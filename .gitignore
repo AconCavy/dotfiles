@@ -1,23 +1,23 @@
 # ignore all dotfiles
-/dotfiles/*
+/dotfiles_shared/*
 /dotfiles_mac/*
 
 # for common
-!/dotfiles/.config/
-/dotfiles/.config/*
-!/dotfiles/.config/alacritty/
-!/dotfiles/.config/alacritty/alacritty.toml
-!/dotfiles/.config/powershell/
-!/dotfiles/.config/powershell/Microsoft.Powershell_profile.ps1
-!/dotfiles/.config/powershell/profile.ps1
-!/dotfiles/.config/zellij/
-!/dotfiles/.config/zellij/config.kdl
-!/dotfiles/.config/starship.toml
-!/dotfiles/.profile
-!/dotfiles/.vimrc
-!/dotfiles/.zprofile
-!/dotfiles/.zshrc
-!/dotfiles/.zshenv
+!/dotfiles_shared/.config/
+/dotfiles_shared/.config/*
+!/dotfiles_shared/.config/alacritty/
+!/dotfiles_shared/.config/alacritty/alacritty.toml
+!/dotfiles_shared/.config/powershell/
+!/dotfiles_shared/.config/powershell/Microsoft.Powershell_profile.ps1
+!/dotfiles_shared/.config/powershell/profile.ps1
+!/dotfiles_shared/.config/zellij/
+!/dotfiles_shared/.config/zellij/config.kdl
+!/dotfiles_shared/.config/starship.toml
+!/dotfiles_shared/.profile
+!/dotfiles_shared/.vimrc
+!/dotfiles_shared/.zprofile
+!/dotfiles_shared/.zshrc
+!/dotfiles_shared/.zshenv
 
 # for mac
 !/dotfiles_mac/.Brewfile

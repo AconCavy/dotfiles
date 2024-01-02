@@ -2,7 +2,7 @@
 
 SCRIPT_PATH=$(cd $(dirname $0); pwd)
 ROOT_PATH=$(dirname $SCRIPT_PATH)
-DOTFILES_SHARED_PATH="$ROOT_PATH/dotfiles"
+DOTFILES_SHARED_PATH="$ROOT_PATH/dotfiles_shared"
 DOTBACKUP_PATH="$HOME/.dotbackup"
 
 DOTFILES_OS_PATH=""
