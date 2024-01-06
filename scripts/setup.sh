@@ -47,11 +47,14 @@ setup_mac() {
 
   notice "Install the softwares via Homebrew"
   brew bundle --file "$ROOT_PATH/dotfiles_mac/.Brewfile"
+
+  notice "End to setup for mac"
 }
 
 setup_linux() {
   notice "Begin to setup for linux"
-  echo "todo"
+  notice "TODO"
+  notice "End to setup for linux"
 }
 
 case "$(uname -s)" in
