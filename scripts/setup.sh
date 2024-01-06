@@ -1,6 +1,9 @@
 #!/bin/bash
 
-SCRIPT_PATH=$(cd $(dirname $0); pwd)
+SCRIPT_PATH=$(
+  cd $(dirname $0)
+  pwd
+)
 ROOT_PATH=$(dirname $SCRIPT_PATH)
 
 notice() {
@@ -29,6 +32,6 @@ setup_linux() {
 }
 
 case "$(uname -s)" in
-    "Darwin") setup_mac ;;
-    "Linux") setup_linux ;;
+"Darwin") setup_mac ;;
+"Linux") setup_linux ;;
 esac
