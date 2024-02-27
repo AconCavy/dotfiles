@@ -4,7 +4,7 @@ tap "homebrew/core"
 # cli
 brew "asdf"
 brew "bat"
-brew "exa"
+brew "eza"
 brew "fd"
 brew "git"
 brew "ripgrep"

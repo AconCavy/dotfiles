@@ -1,13 +1,13 @@
 export LANG=ja_JP.UTF-8
 
 alias ls='ls --color=auto'
-if type exa &>/dev/null; then
-  alias l='exa --icons'
-  alias ls='exa --icons'
-  alias la='exa --icons -a'
-  alias ll='exa --icons -l'
-  alias lt='exa --icons -T --git-ignore'
-  alias llt='exa --icons -lT --git --git-ignore'
+if type eza &>/dev/null; then
+  alias l='eza --icons'
+  alias ls='eza --icons'
+  alias la='eza --icons -a'
+  alias ll='eza --icons -l'
+  alias lt='eza --icons -T --git-ignore'
+  alias llt='eza --icons -lT --git --git-ignore'
 fi
 
 if type brew &>/dev/null; then
