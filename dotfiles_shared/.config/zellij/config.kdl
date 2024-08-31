@@ -277,7 +277,7 @@ keybinds clear-defaults=true {
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "nord" 
+theme "fleet-dark-like"
 
 // The name of the default layout to load on startup
 // Default: "default"
@@ -368,5 +368,18 @@ themes {
         cyan 136 192 208
         white 229 233 240
         orange 208 135 112
+    }
+    fleet-dark-like {
+        fg "#d1d1d1"
+        bg "#181818"
+        black "#595959"
+        red "#c7001b"
+        green "#009e6f"
+        yellow "#fad075"
+        blue "#0067e6"
+        magenta "#eb4dde"
+        cyan "#00bad6"
+        white "#a0a0a0"
+        orange "#e09119"
     }
 }

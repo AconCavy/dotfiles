@@ -4,6 +4,8 @@
 /dotfiles_shared/.config/*
 !/dotfiles_shared/.config/alacritty/
 !/dotfiles_shared/.config/alacritty/alacritty.toml
+!/dotfiles_shared/.config/alacritty/themes/
+!/dotfiles_shared/.config/alacritty/themes/fleet-dark.toml
 !/dotfiles_shared/.config/powershell/
 !/dotfiles_shared/.config/powershell/Microsoft.Powershell_profile.ps1
 !/dotfiles_shared/.config/powershell/profile.ps1
