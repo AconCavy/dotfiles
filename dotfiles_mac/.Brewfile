@@ -1,11 +1,15 @@
+tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 # cli
 brew "asdf"
 brew "bat"
+brew "cmake"
 brew "eza"
 brew "fd"
+brew "gh"
 brew "git"
 brew "ripgrep"
 brew "starship"
@@ -17,5 +21,6 @@ brew "zsh-syntax-highlighting"
 
 # app
 cask "alacritty"
+cask "jetbrains-toolbox"
 cask "powershell"
 cask "visual-studio-code"
