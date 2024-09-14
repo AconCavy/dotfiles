@@ -34,5 +34,5 @@ If a dotfile exists in the `$HOME/.dotbackup` directory, move it to the `$HOME` 
 
 ## Configure dotfiles
 
-Place shared dotfiles in the `./dotfiles_shared`.  
-Place OS-specific dotfiles in the `./dotfiles_{OS}` for each OS.
+Place shared dotfiles in the `./dotfiles-shared`.  
+Place OS-specific dotfiles in the `./dotfiles-{OS}` for each OS.

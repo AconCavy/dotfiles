@@ -5,12 +5,12 @@ SCRIPT_PATH=$(
   pwd
 )
 ROOT_PATH=$(dirname $SCRIPT_PATH)
-DOTFILES_SHARED_PATH="$ROOT_PATH/dotfiles_shared"
+DOTFILES_SHARED_PATH="$ROOT_PATH/dotfiles-shared"
 DOTBACKUP_PATH="$HOME/.dotbackup"
 
 DOTFILES_OS_PATH=""
 case "$(uname -s)" in
-"Darwin") DOTFILES_OS_PATH="$ROOT_PATH/dotfiles_mac" ;;
+"Darwin") DOTFILES_OS_PATH="$ROOT_PATH/dotfiles-mac" ;;
 "Linux") echo "todo" ;;
 esac
 

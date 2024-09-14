@@ -46,7 +46,7 @@ setup_mac() {
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   notice "Install the softwares via Homebrew"
-  brew bundle --file "$ROOT_PATH/dotfiles_mac/.Brewfile"
+  brew bundle --file "$ROOT_PATH/dotfiles-mac/.Brewfile"
 
   notice "End to setup for mac"
 }
