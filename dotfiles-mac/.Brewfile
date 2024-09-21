@@ -1,7 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
 
 # cli
 brew "asdf"
@@ -11,6 +8,8 @@ brew "eza"
 brew "fd"
 brew "gh"
 brew "git"
+brew "gnupg"
+brew "pinentry-mac"
 brew "ripgrep"
 brew "starship"
 brew "webp"
@@ -21,6 +20,10 @@ brew "zsh-syntax-highlighting"
 
 # app
 cask "alacritty"
+cask "discord"
+cask "docker"
+cask "font-udev-gothic"
+cask "font-udev-gothic-nf"
 cask "jetbrains-toolbox"
 cask "powershell"
 cask "visual-studio-code"
