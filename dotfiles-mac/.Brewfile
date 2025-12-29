@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 
 # cli
-brew "asdf"
 brew "bat"
 brew "cmake"
 brew "eza"
