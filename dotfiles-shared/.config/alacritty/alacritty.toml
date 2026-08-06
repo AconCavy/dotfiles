@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/fleet-dark-like.toml"
+    "~/.config/alacritty/themes/jetbrains-islands-dark-like.toml"
 ]
 
 [env]
@@ -31,8 +31,8 @@ style = "Regular"
 args = ["-l", "-c", "zellij attach --index 0 --create"]
 program = "/bin/zsh"
 
-[window]
-opacity = 0.95
+# [window]
+# opacity = 0.95
 
 [window.dimensions]
 columns = 160

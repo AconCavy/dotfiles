@@ -1,0 +1,61 @@
+# JetBrains Islands Dark
+
+[colors]
+#transparent_background_colors = true
+#draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background       = "#191a1c"
+foreground       = "#ced0d6"
+bright_foreground = "#ffffff"
+dim_foreground    = "#76777c"
+
+[colors.cursor]
+text   = "#191a1c"
+cursor = "#ced0d6"
+
+[colors.selection]
+text       = "#191a1c"
+background = "#214283"
+
+[colors.search.matches]
+foreground = "#191a1c"
+background = "#114957"
+
+[colors.search.focused_match]
+foreground = "#191a1c"
+background = "#2d543f"
+
+[colors.footer_bar]
+background = "#26282c"
+foreground = "#dfe1e5"
+
+[colors.normal]
+black   = "#000000"
+blue    = "#5594fa"
+cyan    = "#47ccbd"
+green   = "#6bcc62"
+magenta = "#c092fa"
+red     = "#f27481"
+white   = "#ced0d6"
+yellow  = "#e0ce70"
+
+[colors.bright]
+black   = "#4e5157"
+blue    = "#3399ff"
+cyan    = "#40ffe9"
+green   = "#67ff59"
+magenta = "#d970ff"
+red     = "#ff6b7a"
+white   = "#ffffff"
+yellow  = "#ffec1a"
+
+[colors.dim]
+black   = "#0f0f11"
+blue    = "#39598e"
+cyan    = "#32746f"
+green   = "#437542"
+magenta = "#6f588d"
+red     = "#884951"
+white   = "#76777c"
+yellow  = "#7f764a"
