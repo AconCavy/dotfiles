@@ -1,0 +1,89 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "diff_view_style": "split",
+  "show_edit_predictions": false,
+  "use_system_window_tabs": true,
+  "edit_predictions": {
+    "allow_data_collection": "no",
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "agent": {
+    "auto_compact": {
+      "threshold": "90%"
+    },
+    "enable_feedback": false,
+    "profiles": {
+
+    },
+    "button": true,
+    "sidebar_side": "right",
+    "default_profile": "ask",
+    "dock": "right",
+    "model_parameters": []
+  },
+  "ui_font_family": ".SystemUIFont",
+  "format_on_save": "off",
+  "git_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "cli_default_open_behavior": "new_window",
+  "proxy": "",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "terminal": {
+    "font_family": "UDEV Gothic 35",
+    "font_fallbacks": [
+      "UDEV Gothic 35NF",
+      "Menlo",
+      "Monaco",
+      "Courier New",
+      "monospace"
+    ]
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "buffer_font_fallbacks": [
+    "UDEV Gothic 35NF",
+    "Menlo",
+    "Monaco",
+    "Courier New",
+    "monospace"
+  ],
+  "buffer_font_family": "UDEV Gothic 35",
+  "auto_indent_on_paste": true,
+  "icon_theme": {
+    "mode": "system",
+    "light": "JetBrains New UI Icons (Light)",
+    "dark": "JetBrains New UI Icons (Dark)"
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 18.0,
+  "theme": {
+    "mode": "system",
+    "light": "JetBrains Islands Light",
+    "dark": "JetBrains Islands Dark",
+  },
+}
