@@ -25,11 +25,11 @@ style = "Italic"
 family = "UDEV Gothic 35NF"
 style = "Regular"
 
-[terminal]
-
-[terminal.shell]
-args = ["-l", "-c", "zellij attach --index 0 --create"]
-program = "/bin/zsh"
+# [terminal]
+#
+# [terminal.shell]
+# args = ["-l", "-c", "zellij attach --index 0 --create"]
+# program = "/bin/zsh"
 
 # [window]
 # opacity = 0.95
